@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StubProject/StubProject.iml" filepath="$PROJECT_DIR$/StubProject/StubProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial2CreatingAStubProject.iml" filepath="$PROJECT_DIR$/Tutorial2CreatingAStubProject.iml" />
+    </modules>
+  </component>
+</project>
+
