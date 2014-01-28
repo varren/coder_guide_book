@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="varren.com.coder.book.tutorial2" >
+    package="varren.com.coder.book.tutorial2">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true"/>
 
     <application
         android:allowBackup="true"
