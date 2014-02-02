@@ -36,6 +36,7 @@ public class PlayingCard extends Card{
         }
     }
 
+
     public static ArrayList<String>validSuits(){
         return validSuitsArray;
     }
@@ -48,5 +49,24 @@ public class PlayingCard extends Card{
         return rankStrings().size() - 1;
     }
 
+    private String contents(){
+        return rankStringsArray.get(rank) + suit;
+    }
+
+    @Override
+    public int match(ArrayList<Card> otherCards){
+        int score = 0;
+        if(otherCards != null && otherCards.size()==1){
+            if(otherCards.get(0) instanceof PlayingCard){
+                PlayingCard otherCard = (PlayingCard)otherCards.get(0);
+                if(otherCard.suit.equals(this.suit)){
+                    score = 1;
+                }else if (otherCard.rank == this.rank){
+                    score = 4;
+                }
+            }
+        }
+        return score;
+    }
 
 }

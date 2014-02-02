@@ -4,5 +4,6 @@
     <string name="app_name">Matchismo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="button_text">C</string>
+    <string name="score_label">Score: 0</string>
 </resources>

@@ -1,7 +1,276 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.varren.matchismo.MainActivity"
-    tools:ignore="MergeRootFrame" />
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/container">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:background="@drawable/blue_button"
+                android:text="@string/button_text"
+                android:id="@+id/button"
+                android:onClick="flipCard" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button2"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button3"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button4"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button5"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/tableRow">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:text="@string/button_text"
+                android:id="@+id/button6"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button7"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button8"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button9"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button10"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/tableRow2">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:text="@string/button_text"
+                android:id="@+id/button11"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button12"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button13"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button14"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button15"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/tableRow3">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:text="@string/button_text"
+                android:id="@+id/button16"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button17"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button18"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button19"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button20"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:id="@+id/tableRow4">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20"
+                android:text="@string/button_text"
+                android:id="@+id/button21"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button22"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button23"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button24"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/button_text"
+                android:layout_weight="20"
+                android:id="@+id/button25"
+                android:onClick="flipCard"
+                android:background="@drawable/blue_button" />
+        </TableRow>
+    </LinearLayout>
+</RelativeLayout>
